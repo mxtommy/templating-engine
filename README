@@ -1,0 +1,13 @@
+This web script searches the current directory for template files. It will then ask
+questions based on XML found in the template file, andthen insert the info at the
+appropriate places in the template.
+
+Fair warning, the script does 0 error checking/validation. Do not put it on a public
+webserver or you will likely be hacked :)
+
+See the file example.tpl for an example.
+
+It's very short and raw. I wrote it as I couldn't find anything better online that would
+fill my needs. Feel free to improve it!
+
+Thomas St.Pierre - thomas@samoht.ca
